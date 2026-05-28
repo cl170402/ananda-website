@@ -1,0 +1,77 @@
+[
+  {
+    "id": "158d8a97",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "2026-05_14_VitaSeq_PitchDeck_Ananda.pdf",
+    "name": "VitaSeq",
+    "description": "VitaSeq is developing a blood-based diagnostic test that uses a patented microRNA signature to detect Alzheimer's-associated cognitive decline years before symptom onset. The test produces a cognition score reflecting brain health, targeting the early Alzheimer's detection market where current gold-standard diagnostics (CSF and PET) are invasive, costly, and used too late.",
+    "team": "Pitch presented by Florian Erber to Ananda Impact Ventures; founding team details not specified in the deck, though the underlying microRNA signature science was published in EMBO Molecular Medicine (Islam et al. 2021).",
+    "stage": null,
+    "tags": [
+      "Alzheimer's diagnostics",
+      "microRNA biomarkers",
+      "liquid biopsy"
+    ]
+  },
+  {
+    "id": "0dab844e",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Cardiovolt May latest.pdf",
+    "name": "Cardiovolt.ai",
+    "description": "Cardiovolt.ai provides Software as a Medical Device (SaMD) that uses AI to detect hidden heart disease in standard ECGs, identifying 14 cardiac and 3 non-cardiac conditions before symptoms appear. The company sells B2B to healthcare providers and pharma/life sciences companies, targeting the 1B+ ECGs performed globally each year to enable proactive cardiac care and enrich clinical trials.",
+    "team": "The pitch deck does not provide specific details on the founding team or their backgrounds.",
+    "stage": null,
+    "tags": [
+      "AI diagnostics",
+      "cardiology",
+      "SaMD"
+    ]
+  },
+  {
+    "id": "3c18de9d",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Hothouse-NC-180526-final SENT.pdf",
+    "name": "HotHouse Therapeutics",
+    "description": "HotHouseTx is a spin-out from the John Innes Centre's Osbourn Lab that combines AI-driven drug design (BotanAI) with a plant-based bioproduction platform (BotanBio) to design, make, and test complex natural product-like compounds on drug-discovery timelines. Its initial focus is on next-generation vaccine adjuvants, with a broader vision of sustainable, plant-made therapeutics.",
+    "team": "Led by CEO Dr David Sheppard (ex-EntactBio founder, 26 years in biotech) and CSO Professor Anne Osbourn OBE FRS (world leader in plant metabolic engineering), with Dr Phil Spence heading informatics and Ivan Griffin (ex-BenevolentAI) as CBO/Co-Founder. Advised by Adrian Hill of the Jenner Institute.",
+    "stage": "Seed",
+    "tags": [
+      "AI drug discovery",
+      "synthetic biology",
+      "vaccine adjuvants"
+    ]
+  },
+  {
+    "id": "67350d0e",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Sapio Health - Pitch Deck.pdf",
+    "name": "Sapio Health",
+    "description": "Sapio Health is building Horizon-1, a continuous physics engine for human health that fuses multi-modal clinical and wearable data to model disease trajectories over time. It serves both clinicians (via detection, coding, and messaging interfaces sold to providers) and patients (via a freemium app), targeting the chronic disease and primary care market in the UK and US.",
+    "team": "The pitch deck does not provide explicit details about the founding team or their backgrounds.",
+    "stage": "Pre-seed",
+    "tags": [
+      "continuous health intelligence",
+      "clinical AI",
+      "chronic disease"
+    ]
+  },
+  {
+    "id": "70a4cd09",
+    "sector": "techbio",
+    "date_added": "2026-05-28",
+    "source_file": "VUS Genetics - Seed Investment Deck - Non conf - May 2026.pdf",
+    "name": "VUS Genetics",
+    "description": "VUS Genetics is building a proprietary functional genomics and data intelligence platform that links drug target discovery, patient stratification, and clinical outcomes to improve oncology drug development success rates. Its first product, ATMpredict, identifies ATM-mutant cancer patients who could benefit from ATR inhibitor therapies, enabling label expansion for biotech and pharma partners.",
+    "team": "The team is supported by 4 international clinical research collaborators and has signed an exclusive license on a novel gene editing approach, with 9 MSAs signed with biotech and pharma partners indicating commercial traction. Specific founder backgrounds are not detailed in the deck.",
+    "stage": "Seed / Pre-Series A",
+    "tags": [
+      "functional genomics",
+      "oncology",
+      "precision medicine"
+    ]
+  }
+]

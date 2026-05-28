@@ -1,0 +1,9 @@
+.next/
+out/
+node_modules/
+.env
+.env.local
+*.pdf
+__pycache__/
+*.pyc
+.DS_Store
