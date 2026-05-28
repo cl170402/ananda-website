@@ -4,38 +4,38 @@ import { useState, useEffect } from "react";
 import { Deal } from "@/types/deal";
 import { getConviction, setConviction, getStatus, setStatus } from "@/lib/storage";
 
-/* ── Status config ─────────────────────────────────────────────── */
+/* ── Status ──────────────────────────────────────────────────────── */
 const STATUSES = ["Sourced", "Meeting", "In DD", "Watch", "Passed"] as const;
 type Status = (typeof STATUSES)[number] | "";
 
 const STATUS_STYLE: Record<string, string> = {
-  Sourced: "bg-zinc-700/40 text-zinc-400 border-zinc-600/50",
-  Meeting: "bg-blue-500/15 text-blue-400 border-blue-500/30",
-  "In DD": "bg-amber-500/15 text-amber-400 border-amber-500/30",
-  Watch: "bg-violet-500/15 text-violet-400 border-violet-500/30",
-  Passed: "bg-red-500/10 text-red-400/60 border-red-500/20",
+  Sourced:  "bg-zinc-700/40 text-zinc-400 border-zinc-600/50",
+  Meeting:  "bg-blue-500/15 text-blue-400 border-blue-500/30",
+  "In DD":  "bg-amber-500/15 text-amber-400 border-amber-500/30",
+  Watch:    "bg-violet-500/15 text-violet-400 border-violet-500/30",
+  Passed:   "bg-red-500/10 text-red-400/60 border-red-500/20",
 };
 
-/* ── Sector config ─────────────────────────────────────────────── */
+/* ── Sector ──────────────────────────────────────────────────────── */
 const SECTOR_STYLES: Record<string, string> = {
-  health: "bg-emerald-500/10 text-emerald-400 border border-emerald-500/25",
+  health:  "bg-emerald-500/10 text-emerald-400 border border-emerald-500/25",
   techbio: "bg-violet-500/10 text-violet-400 border border-violet-500/25",
 };
 const SECTOR_DOT: Record<string, string> = {
-  health: "bg-emerald-400",
+  health:  "bg-emerald-400",
   techbio: "bg-violet-400",
 };
 const SECTOR_LABEL: Record<string, string> = {
-  health: "Health",
+  health:  "Health",
   techbio: "TechBio",
 };
 
-/* ── Component ─────────────────────────────────────────────────── */
+/* ── Component ───────────────────────────────────────────────────── */
 export default function DealCard({ deal }: { deal: Deal }) {
   const [conviction, setConvictionState] = useState(0);
-  const [status, setStatusState] = useState<Status>("");
+  const [status, setStatusState]         = useState<Status>("");
   const [showStatusMenu, setShowStatusMenu] = useState(false);
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted]            = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -44,7 +44,6 @@ export default function DealCard({ deal }: { deal: Deal }) {
   }, [deal.id]);
 
   const handleConviction = (n: number) => {
-    // clicking the same dot clears it
     const next = conviction === n ? 0 : n;
     setConvictionState(next);
     setConviction(deal.id, next);
@@ -59,11 +58,26 @@ export default function DealCard({ deal }: { deal: Deal }) {
   return (
     <div className="group relative bg-white/[0.03] hover:bg-white/[0.05] rounded-xl border border-white/8 hover:border-white/12 p-5 flex flex-col gap-3 transition-all duration-200">
 
-      {/* Top row */}
+      {/* ── Top row ── */}
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-2 min-w-0">
           <span className={`flex-shrink-0 w-1.5 h-1.5 rounded-full ${SECTOR_DOT[deal.sector] ?? "bg-zinc-400"}`} />
           <h2 className="text-sm font-semibold text-white leading-tight truncate">{deal.name}</h2>
+          {deal.website && (
+            <a
+              href={deal.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="flex-shrink-0 text-zinc-600 hover:text-zinc-300 transition-colors"
+              title={deal.website}
+            >
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round"
+                  d="M13.828 10.172a4 4 0 0 0-5.656 0l-4 4a4 4 0 1 0 5.656 5.656l1.102-1.101m-.758-4.899a4 4 0 0 0 5.656 0l4-4a4 4 0 0 0-5.656-5.656l-1.1 1.1" />
+              </svg>
+            </a>
+          )}
         </div>
         <div className="flex gap-1.5 flex-shrink-0 flex-wrap justify-end">
           <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full tracking-wide ${SECTOR_STYLES[deal.sector] ?? "bg-zinc-800 text-zinc-400 border border-zinc-700"}`}>
@@ -77,10 +91,10 @@ export default function DealCard({ deal }: { deal: Deal }) {
         </div>
       </div>
 
-      {/* Description */}
+      {/* ── Description ── */}
       <p className="text-xs text-zinc-400 leading-relaxed line-clamp-4">{deal.description}</p>
 
-      {/* Team */}
+      {/* ── Team ── */}
       {deal.team && (
         <div className="border-t border-white/5 pt-3">
           <p className="text-[9px] text-zinc-600 uppercase tracking-widest font-medium mb-1.5">Team</p>
@@ -88,7 +102,20 @@ export default function DealCard({ deal }: { deal: Deal }) {
         </div>
       )}
 
-      {/* Tags */}
+      {/* ── Latest update ── */}
+      {deal.latest_news && (
+        <div className="border-t border-white/5 pt-3">
+          <div className="flex items-center gap-1.5 mb-1.5">
+            <span className="w-1 h-1 rounded-full bg-sky-400 animate-pulse" />
+            <p className="text-[9px] text-sky-600 uppercase tracking-widest font-medium">
+              Latest · {deal.news_date ?? deal.enriched_at}
+            </p>
+          </div>
+          <p className="text-xs text-zinc-500 leading-relaxed">{deal.latest_news}</p>
+        </div>
+      )}
+
+      {/* ── Tags ── */}
       {deal.tags && deal.tags.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
           {deal.tags.map((tag) => (
@@ -99,7 +126,7 @@ export default function DealCard({ deal }: { deal: Deal }) {
         </div>
       )}
 
-      {/* ── Investor controls ──────────────────────────────────── */}
+      {/* ── Investor controls ── */}
       {mounted && (
         <div className="border-t border-white/5 pt-3 flex items-center justify-between gap-3 mt-auto">
 
@@ -112,13 +139,11 @@ export default function DealCard({ deal }: { deal: Deal }) {
                 className="group/dot p-0.5 rounded transition-transform hover:scale-110"
                 aria-label={`Conviction ${n}`}
               >
-                <span
-                  className={`block w-2 h-2 rounded-full border transition-colors ${
-                    n <= conviction
-                      ? "bg-amber-400 border-amber-400"
-                      : "bg-transparent border-zinc-700 group-hover/dot:border-zinc-500"
-                  }`}
-                />
+                <span className={`block w-2 h-2 rounded-full border transition-colors ${
+                  n <= conviction
+                    ? "bg-amber-400 border-amber-400"
+                    : "bg-transparent border-zinc-700 group-hover/dot:border-zinc-500"
+                }`} />
               </button>
             ))}
           </div>
@@ -135,7 +160,6 @@ export default function DealCard({ deal }: { deal: Deal }) {
             >
               {status || "+ status"}
             </button>
-
             {showStatusMenu && (
               <div className="absolute bottom-full right-0 mb-1 z-10 bg-zinc-900 border border-white/10 rounded-lg p-1 shadow-xl min-w-[110px]">
                 {STATUSES.map((s) => (

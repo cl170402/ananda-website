@@ -12,7 +12,11 @@
       "Alzheimer's diagnostics",
       "microRNA biomarkers",
       "liquid biopsy"
-    ]
+    ],
+    "website": "https://www.vitaseq.com",
+    "latest_news": "VitaSeq, a Hamburg-based medtech startup developing microRNA-based blood tests for early Alzheimer's detection, pitched at the STARTERiN conference in December 2025 and is targeting 2028 for medical device approval.",
+    "news_date": "March 2026",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "0dab844e",
@@ -27,7 +31,11 @@
       "AI diagnostics",
       "cardiology",
       "SaMD"
-    ]
+    ],
+    "website": "https://cardiovolt.ai",
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "3c18de9d",
@@ -42,7 +50,11 @@
       "AI drug discovery",
       "synthetic biology",
       "vaccine adjuvants"
-    ]
+    ],
+    "website": "https://hothousetx.com/",
+    "latest_news": "HotHouse Therapeutics emerged from stealth with £2.9 million (~$3.8M) in pre-seed funding from SynBioVen, Start Codon, UKI2S, Twin Path Ventures, Wren Capital, angel investors, and an Innovate UK grant to develop its AI-powered plant bioengineering platform for sustainable drug discovery.",
+    "news_date": "December 2025",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "67350d0e",
@@ -57,7 +69,11 @@
       "continuous health intelligence",
       "clinical AI",
       "chronic disease"
-    ]
+    ],
+    "website": "https://sapio.health/",
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "70a4cd09",
@@ -72,7 +88,11 @@
       "functional genomics",
       "oncology",
       "precision medicine"
-    ]
+    ],
+    "website": "https://www.vusgenetics.com/",
+    "latest_news": "VUS Genetics participated at BIO-Europe Spring 2026 (March 23-25, 2026) in Lisbon as a presenting company, and representatives attended the CRISPR Medicine 2026 conference and Perturb2026 High-content CRISPR screening conference in Vienna.",
+    "news_date": "March 2026",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "0096e836",
@@ -87,7 +107,11 @@
       "food & beverage",
       "process automation",
       "industrial IoT"
-    ]
+    ],
+    "website": null,
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "418dc3ad",
@@ -100,7 +124,11 @@
     "stage": null,
     "tags": [
       "biotech"
-    ]
+    ],
+    "website": "https://flowbio.com",
+    "latest_news": "FLOWBIO appointed Stephen Moon (former CEO of Science in Sport Group) as non-executive chair and launched a hydration planning tool for S1 sensor users.",
+    "news_date": "Q3 2025",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "733511f3",
@@ -115,7 +143,11 @@
       "MRI imaging",
       "prostate cancer",
       "AI diagnostics"
-    ]
+    ],
+    "website": null,
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "70b37204",
@@ -130,7 +162,11 @@
       "AI",
       "hospital workflow",
       "care transitions"
-    ]
+    ],
+    "website": null,
+    "latest_news": "Health Concierge Inc. was selected as a finalist for the Pitch Perfect startup contest at the MedCity INVEST conference in Chicago, May 20-21, 2025, competing in the Consumer/Employer health tech track focused on care coordination and navigation.",
+    "news_date": "May 2025",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "b71ab655",
@@ -145,7 +181,11 @@
       "foundation models",
       "spatial proteomics",
       "oncology"
-    ]
+    ],
+    "website": null,
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "cbbacded",
@@ -160,7 +200,11 @@
       "organoids",
       "drug discovery",
       "phenotyping"
-    ]
+    ],
+    "website": "https://www.vitroscope.no",
+    "latest_news": "Vitroscope announced a €3M seed round led by an EU deep tech VC, added Dr. Julia Schueler (Charles River Laboratories) to their advisory team, and held an entrepreneurial panel at the University of Pittsburgh with investor Reinforced Ventures.",
+    "news_date": "December 2024 - February 2025",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "e22ef6f3",
@@ -175,7 +219,11 @@
       "surgical imaging",
       "medical AI",
       "computer vision"
-    ]
+    ],
+    "website": "https://www.enacuity.com/",
+    "latest_news": "EnAcuity was awarded a prestigious Innovate UK Smart Grant worth £300,840 to support the development of their software-only surgical hyperspectral imaging solution.",
+    "news_date": "July 2025",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "e597392a",
@@ -190,7 +238,11 @@
       "precision immunology",
       "autoimmune",
       "multi-omics"
-    ]
+    ],
+    "website": "https://www.otoimmune.com/",
+    "latest_news": "OtoImmune representatives attended the Health + AI Insiders Tech Show, introducing both OtoImmune and their product mOI Health, which aims to support patients tackling autoimmunity and chronic inflammatory conditions.",
+    "news_date": "April 2026",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "1faca1ed",
@@ -205,7 +257,11 @@
       "clinical trials",
       "agentic AI",
       "patient recruitment"
-    ]
+    ],
+    "website": "https://www.srotas.health/",
+    "latest_news": "Srotas Health has raised $335K in funding from investors including MaRS Discovery District, SFC Capital, DigitalHealth.London Accelerator, and lablab NEXT. As of February 2026, the company has grown to 14 employees.",
+    "news_date": "February 2026",
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "cd525a0e",
@@ -220,7 +276,11 @@
       "neurology",
       "clinical AI",
       "EEG diagnostics"
-    ]
+    ],
+    "website": "https://www.pabel.ai",
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   },
   {
     "id": "6a1b8a5c",
@@ -235,6 +295,10 @@
       "antimicrobial resistance",
       "nanoparticles",
       "chronic infections"
-    ]
+    ],
+    "website": "https://aurapeutics.com/",
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-05-28"
   }
 ]

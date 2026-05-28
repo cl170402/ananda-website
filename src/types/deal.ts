@@ -8,4 +8,9 @@ export interface Deal {
   tags: string[];
   date_added: string;
   source_file: string;
+  // enrichment
+  website?: string | null;
+  latest_news?: string | null;
+  news_date?: string | null;
+  enriched_at?: string;
 }
