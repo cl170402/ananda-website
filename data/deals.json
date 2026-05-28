@@ -135,7 +135,7 @@
     "sector": "health",
     "date_added": "2026-05-28",
     "source_file": "Flux Investor FAQs.pdf",
-    "name": "Unnamed Prostate MRI Startup",
+    "name": "Flux Clinic",
     "description": "The company is developing an autonomous, low-field MRI device focused on early detection of prostate cancer, designed to be deployed in freestanding imaging centers under a per-scan commercial model. It targets the existing ~$400M US reimbursed prostate MRI pathway, with plans to expand into broader screening as guidelines evolve.",
     "team": "The founding team is not described in the provided pitch deck text, so relevant backgrounds cannot be summarized.",
     "stage": null,
@@ -164,8 +164,8 @@
       "care transitions"
     ],
     "website": null,
-    "latest_news": "Health Concierge Inc. was selected as a finalist for the Pitch Perfect startup contest at the MedCity INVEST conference in Chicago, May 20-21, 2025, competing in the Consumer/Employer health tech track focused on care coordination and navigation.",
-    "news_date": "May 2025",
+    "latest_news": null,
+    "news_date": null,
     "enriched_at": "2026-05-28"
   },
   {
