@@ -161,5 +161,80 @@
       "drug discovery",
       "phenotyping"
     ]
+  },
+  {
+    "id": "e22ef6f3",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "EnAcuity_Self-explanatory_deck_Q2_2026.pdf",
+    "name": "Enacuity",
+    "description": "Enacuity develops AI-powered software that transforms standard surgical camera feeds into functional imaging, displaying tissue oxygenation without requiring new hardware. The company targets the surgical imaging market, starting with laparoscopic colorectal surgery where visualizing tissue perfusion can reduce anastomotic leak complications.",
+    "team": "Founded by Imperial and TUM PhD graduates with expertise in surgical imaging and computer vision, including co-founders from Odin Vision, Digital Surgery, and TympaHealth. The team is supported by consultants with 15+ years of MedTech industry experience and clinical advisors who are practicing colorectal surgeons.",
+    "stage": null,
+    "tags": [
+      "surgical imaging",
+      "medical AI",
+      "computer vision"
+    ]
+  },
+  {
+    "id": "e597392a",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Otoimmune extended deck (1).pdf",
+    "name": "OtoImmune",
+    "description": "OtoImmune is building a precision immunology platform that uses multi-omic data and AI to detect chronic inflammatory and autoimmune conditions earlier, provide personalized patient insights, and improve treatment decisions. The company offers a mobile app with clinical-grade testing, AI-driven interpretation, and connections to specialist care, targeting a £44B market across patients, clinicians, and pharma discovery partnerships.",
+    "team": "Co-founded by Dr. Jason Mellad (CEO) and Dan Rooke (COO), both with backgrounds from Start Codon and experience in health technology, genomics, and biomodal platforms. The team includes Dr. Yacine Dahman as Head of AI and Engineering with prior experience at Congenica.",
+    "stage": "Seed",
+    "tags": [
+      "precision immunology",
+      "autoimmune",
+      "multi-omics"
+    ]
+  },
+  {
+    "id": "1faca1ed",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "SrotasHealth-Deck_Seed_Investor.pdf",
+    "name": "Srotas Health",
+    "description": "Srotas Health is an agentic AI platform that automates end-to-end clinical trial patient recruitment, including identification, screening, and engagement. The company addresses the problem that 80% of clinical trials fail to complete on time due to poor enrollment, targeting a $7.8B TAM across oncology, cardiology, and CNS trials in the US, UK, and EU.",
+    "team": "Co-founded by Suman Bhaskaran (CEO) with 14+ years in healthcare AI, pharma, and clinical research, and Vikram Parimi (CTO) with 14+ years in AI & healthcare who previously built clinical AI systems for major pharma companies including Pfizer and AstraZeneca.",
+    "stage": "Seed",
+    "tags": [
+      "clinical trials",
+      "agentic AI",
+      "patient recruitment"
+    ]
+  },
+  {
+    "id": "cd525a0e",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "ananda_pabel_eeg_foundation_model.pdf",
+    "name": "Pabel",
+    "description": "Pabel is building a clinical AI foundation model that analyzes EEG (brain signal) data to improve neurological diagnostics and accelerate biomarker research. The company targets neurologists, neuroscience researchers, and clinical research organizations (CROs) with automated EEG interpretation that reduces misdiagnosis rates and addresses the shortage of certified EEG specialists.",
+    "team": "Two technical co-founders: Stan Haaijer, an AI engineer from University of Amsterdam who previously developed medical LLMs, and Georg Panteleev, who has co-founded multiple B2B SaaS startups with 100k+ users and secured €2.5M in prior funding. Both have invested €20k of personal capital.",
+    "stage": null,
+    "tags": [
+      "neurology",
+      "clinical AI",
+      "EEG diagnostics"
+    ]
+  },
+  {
+    "id": "6a1b8a5c",
+    "sector": "techbio",
+    "date_added": "2026-05-28",
+    "source_file": "Aurapeutics.pdf",
+    "name": "AURApeutics",
+    "description": "AURApeutics is developing ultrasound-responsive nanoparticles to transform existing antibiotics for treating chronic infections caused by biofilms. Their platform can reduce antibiotic concentrations by 44-fold while achieving 100% bacterial eradication, addressing the growing antimicrobial resistance crisis in chronic wounds, UTIs, and implant infections.",
+    "team": "Led by Dr. Victor Choi (CEO) with 6 years in biotechnology consulting and IET Outstanding Researcher award, supported by Eleanor Stride FREng OBE (Statutory Professor of Biomaterials, founder of 3 spin-outs) and Mr. Fadi Issa (Professor of Immunology, Consultant Burns surgeon).",
+    "stage": "Seed",
+    "tags": [
+      "antimicrobial resistance",
+      "nanoparticles",
+      "chronic infections"
+    ]
   }
 ]
