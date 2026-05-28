@@ -38,51 +38,75 @@ export default function Home() {
   );
 
   return (
-    <main className="min-h-screen py-10 px-4 sm:px-6 max-w-6xl mx-auto">
-      <div className="mb-8">
-        <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Ecosystem</h1>
-        <p className="text-sm text-stone-400 mt-1">{deals.length} companies tracked</p>
+    <main className="min-h-screen py-12 px-4 sm:px-8 max-w-7xl mx-auto">
+
+      {/* Header */}
+      <div className="mb-12 border-b border-white/5 pb-8">
+        <div className="flex items-end justify-between">
+          <div>
+            <p className="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-2">Deal Flow</p>
+            <h1 className="text-3xl font-semibold text-white tracking-tight">Ecosystem</h1>
+          </div>
+          <div className="text-right">
+            <p className="text-xs text-zinc-600">{deals.length} companies tracked</p>
+            <p className="text-xs text-zinc-700 mt-0.5">
+              {counts.health} Health · {counts.techbio} TechBio
+            </p>
+          </div>
+        </div>
       </div>
 
+      {/* Filters + Search */}
       <div className="flex flex-col sm:flex-row gap-3 mb-8">
-        <input
-          type="text"
-          placeholder="Search companies, tags…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className="flex-1 rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm text-stone-800 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-violet-300"
-        />
+        <div className="relative flex-1">
+          <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Search companies, tags, technology…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="w-full rounded-lg border border-white/8 bg-white/4 pl-9 pr-4 py-2.5 text-sm text-zinc-200 placeholder:text-zinc-600 focus:outline-none focus:ring-1 focus:ring-white/15 focus:border-white/15 transition-colors"
+          />
+        </div>
         <div className="flex gap-2">
           {(["all", "health", "techbio"] as Filter[]).map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
+              className={`px-4 py-2 rounded-lg text-xs font-medium tracking-wide transition-all ${
                 filter === f
                   ? f === "health"
-                    ? "bg-emerald-600 text-white"
+                    ? "bg-emerald-500/15 text-emerald-400 border border-emerald-500/30"
                     : f === "techbio"
-                    ? "bg-violet-600 text-white"
-                    : "bg-stone-800 text-white"
-                  : "bg-white border border-stone-200 text-stone-500 hover:border-stone-300"
+                    ? "bg-violet-500/15 text-violet-400 border border-violet-500/30"
+                    : "bg-white/10 text-white border border-white/15"
+                  : "bg-transparent border border-white/8 text-zinc-500 hover:border-white/15 hover:text-zinc-300"
               }`}
             >
               {f === "all" ? "All" : f === "health" ? "Health" : "TechBio"}
-              <span className="ml-1.5 opacity-60 text-xs">{counts[f]}</span>
+              <span className="ml-1.5 opacity-50">{counts[f]}</span>
             </button>
           ))}
         </div>
       </div>
 
+      {/* Grid */}
       {visible.length === 0 ? (
-        <div className="text-center py-20 text-stone-400 text-sm">No results</div>
+        <div className="text-center py-24 text-zinc-600 text-sm">No results</div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {visible.map((deal) => (
             <DealCard key={deal.id} deal={deal} />
           ))}
         </div>
       )}
+
+      {/* Footer */}
+      <div className="mt-16 pt-6 border-t border-white/5 text-center">
+        <p className="text-xs text-zinc-700">Health · TechBio · {new Date().getFullYear()}</p>
+      </div>
     </main>
   );
 }
