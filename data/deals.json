@@ -73,5 +73,93 @@
       "oncology",
       "precision medicine"
     ]
+  },
+  {
+    "id": "0096e836",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Collo_Investor Presentation_March 2026.pdf",
+    "name": "Collo",
+    "description": "Collo provides liquid process intelligence for Food & Beverage manufacturing, using a novel radio frequency-based inline liquid analyzer combined with AI/ML algorithms and a SaaS platform. The technology identifies and automates optimal operating conditions, reducing product loss, water usage, and quality-related costs in liquid processing.",
+    "team": "The team is not described in the provided pitch deck excerpt.",
+    "stage": "Series A",
+    "tags": [
+      "food & beverage",
+      "process automation",
+      "industrial IoT"
+    ]
+  },
+  {
+    "id": "418dc3ad",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "FLOWBIO Deck - Google Slides.pdf",
+    "name": "FlowBio",
+    "description": "FlowBio appears to be a health/biotech startup, but the provided pitch deck text contains no substantive content beyond a title and page reference. A meaningful description cannot be extracted from the available material.",
+    "team": "No information about the founding team or their backgrounds is provided in the supplied text.",
+    "stage": null,
+    "tags": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "733511f3",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Flux Investor FAQs.pdf",
+    "name": "Unnamed Prostate MRI Startup",
+    "description": "The company is developing an autonomous, low-field MRI device focused on early detection of prostate cancer, designed to be deployed in freestanding imaging centers under a per-scan commercial model. It targets the existing ~$400M US reimbursed prostate MRI pathway, with plans to expand into broader screening as guidelines evolve.",
+    "team": "The founding team is not described in the provided pitch deck text, so relevant backgrounds cannot be summarized.",
+    "stage": null,
+    "tags": [
+      "MRI imaging",
+      "prostate cancer",
+      "AI diagnostics"
+    ]
+  },
+  {
+    "id": "70b37204",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Health Concierge Investor Deck.pdf",
+    "name": "Health Concierge",
+    "description": "Health Concierge offers an AI-powered hospital discharge platform that automates patient transition tasks—like finding specialists, verifying availability, and generating paperwork—to reduce discharge delays. Targeting US hospitals facing a $100B care transition inefficiency problem, the platform embeds into existing clinical workflows to free beds, cut costs, and improve patient outcomes.",
+    "team": "The team is supported by a roster of advisors including Cynthia Henderson PhD, Erin Donnelly, Gary Paquin, Justin Force, Nigel Daniels, Duane Cooney, Trista Taylor, Denis Victor, and Khalid Turk, and has assembled a nationwide consulting team of 6 industry experts covering most of the US.",
+    "stage": "Seed",
+    "tags": [
+      "AI",
+      "hospital workflow",
+      "care transitions"
+    ]
+  },
+  {
+    "id": "b71ab655",
+    "sector": "health",
+    "date_added": "2026-05-28",
+    "source_file": "Strand AI Deck.pdf",
+    "name": "POSTMAN (by the team behind POSTMAN-1)",
+    "description": "The company builds foundation models that generate missing patient biological data from existing measurements, predicting one modality (e.g., spatial proteomics markers like CD20, PD-L1, LAG3) from another (e.g., H&E slides). Their first model, POSTMAN-1, is a 1B-parameter in silico spatial proteomics model aimed at the pharma R&D and multimodal patient data market, competing in a space led by players like Tempus.",
+    "team": "Founded by CEO Yue Dai, formerly core technical staff on the $400M Pathos–AstraZeneca deal and IEEE-published, and CTO Oded Falik, who built Enable Medicine's spatial biology platform scaled to 12B+ single-cell annotations. Both have deep technical backgrounds in AI and multimodal biological data.",
+    "stage": "Seed",
+    "tags": [
+      "foundation models",
+      "spatial proteomics",
+      "oncology"
+    ]
+  },
+  {
+    "id": "cbbacded",
+    "sector": "techbio",
+    "date_added": "2026-05-28",
+    "source_file": "2603 Vitroscope - Teaser.pdf",
+    "name": "Vitroscope",
+    "description": "Vitroscope builds a patented perfusion-based phenotyping platform that keeps human organoids, tissues, and cell models viable and physiologically relevant in the lab for longer than existing methods. It targets the pharma drug R&D market, replacing inaccurate well plates and animal models with humanized in vitro systems for screening, discovery, and optimization.",
+    "team": "Founded by three PhDs covering complementary domains: CEO Carlo Kriesi (biomedical engineering, ETH Zurich/CERN), CTO Heikki Sjöman (IoT/mechatronics, Aalto/Stanford), and CBDO Sandra Jernström (tissue/oncology postdoc, ex-CSO of Okomera). Backed by advisors from Emerald Cloud Labs, Charles River Laboratories, KPMG, and the University of Oxford.",
+    "stage": null,
+    "tags": [
+      "organoids",
+      "drug discovery",
+      "phenotyping"
+    ]
   }
 ]

@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import dealsData from "../../data/deals.json";
 import DealCard from "@/components/DealCard";
+import InsightsBar from "@/components/InsightsBar";
 import { Deal } from "@/types/deal";
 
 const deals = dealsData as Deal[];
@@ -41,20 +42,23 @@ export default function Home() {
     <main className="min-h-screen py-12 px-4 sm:px-8 max-w-7xl mx-auto">
 
       {/* Header */}
-      <div className="mb-12 border-b border-white/5 pb-8">
+      <div className="mb-10 border-b border-white/5 pb-8">
         <div className="flex items-end justify-between">
           <div>
-            <p className="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-2">Deal Flow</p>
+            <p className="text-xs tracking-[0.2em] uppercase text-zinc-600 mb-2">Deal Flow</p>
             <h1 className="text-3xl font-semibold text-white tracking-tight">Ecosystem</h1>
           </div>
           <div className="text-right">
             <p className="text-xs text-zinc-600">{deals.length} companies tracked</p>
-            <p className="text-xs text-zinc-700 mt-0.5">
+            <p className="text-[10px] text-zinc-700 mt-0.5">
               {counts.health} Health · {counts.techbio} TechBio
             </p>
           </div>
         </div>
       </div>
+
+      {/* Insights */}
+      <InsightsBar deals={deals} />
 
       {/* Filters + Search */}
       <div className="flex flex-col sm:flex-row gap-3 mb-8">
@@ -105,7 +109,7 @@ export default function Home() {
 
       {/* Footer */}
       <div className="mt-16 pt-6 border-t border-white/5 text-center">
-        <p className="text-xs text-zinc-700">Health · TechBio · {new Date().getFullYear()}</p>
+        <p className="text-[10px] text-zinc-700">Health · TechBio · {new Date().getFullYear()}</p>
       </div>
     </main>
   );
