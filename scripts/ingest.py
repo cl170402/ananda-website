@@ -26,6 +26,8 @@ ICLOUD_BASE = Path.home() / "Library/Mobile Documents/com~apple~CloudDocs/VC/ana
 SOURCES = [
     (ICLOUD_BASE / "health/decks health", "health"),
     (ICLOUD_BASE / "techbio/decks bio", "techbio"),
+    (ICLOUD_BASE / "synbio/decks synbio", "synbio"),
+    (ICLOUD_BASE / "ag : bio/decks ag", "ag"),
 ]
 
 DATA_FILE = Path(__file__).parent.parent / "data/deals.json"

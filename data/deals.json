@@ -111,7 +111,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-05-28"
+    "enriched_at": "2026-06-03"
   },
   {
     "id": "418dc3ad",
@@ -147,7 +147,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-05-28"
+    "enriched_at": "2026-06-03"
   },
   {
     "id": "70b37204",
@@ -163,10 +163,10 @@
       "hospital workflow",
       "care transitions"
     ],
-    "website": null,
+    "website": "https://healthconcierge.co/",
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-05-28"
+    "enriched_at": "2026-06-03"
   },
   {
     "id": "b71ab655",
@@ -185,7 +185,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-05-28"
+    "enriched_at": "2026-06-03"
   },
   {
     "id": "cbbacded",
@@ -300,5 +300,81 @@
     "latest_news": null,
     "news_date": null,
     "enriched_at": "2026-05-28"
+  },
+  {
+    "id": "ec61852b",
+    "sector": "health",
+    "date_added": "2026-06-03",
+    "source_file": "motus med Pre-Seed Investor Deck June 2026.pdf",
+    "name": "motus med",
+    "description": "motus med is a Charité spin-out developing clinical video AI for epilepsy care. The platform analyzes seizure videos to detect, classify, and structure seizure events, turning hours of video review into minutes and supporting faster clinical decisions. They target epilepsy centers facing review bottlenecks and aim to reduce costs while improving diagnosis and treatment timing.",
+    "team": "Charité spin-out, indicating founding team with academic medical background from one of Europe's largest university hospitals. Specific founder details not provided in the deck.",
+    "stage": "Pre-seed",
+    "tags": [
+      "medical AI",
+      "neurology",
+      "epilepsy"
+    ],
+    "website": "https://motusmed.de",
+    "latest_news": "Motus med is a startup-in-formation supported by the BIH Digital Health Accelerator program, developing an AI-powered seizure detection diagnostic tool for infants and toddlers using smartphone video analysis. They were actively seeking a CEO/co-founder as of mid-2024.",
+    "news_date": "July 2024",
+    "enriched_at": "2026-06-03"
+  },
+  {
+    "id": "30d78b1e",
+    "sector": "techbio",
+    "date_added": "2026-06-03",
+    "source_file": "7af12c30-a0f7-4050-bd01-98012fd4de9b-1770737306185-INVESTOR%20DECK%202026%20-%20Sentinal4D.pptx%20(1)-compressed.pdf",
+    "name": "Sentinal4D",
+    "description": "Sentinal4D uses AI to analyze 3D/4D cell shape and morphology from living cell videos to predict drug efficacy and resistance. The company aims to reduce pharmaceutical R&D costs by identifying which drug candidates will succeed in clinical trials, targeting the $60-70B assay market where current methods fail to inform go/no-go decisions.",
+    "team": "Founded by researchers from ICR (Institute of Cancer Research) and Imperial College, with world-leading expertise in cancer imaging. The team has high-profile publications in Science, Cell, and Nature.",
+    "stage": null,
+    "tags": [
+      "phenomics",
+      "drug discovery",
+      "AI/ML"
+    ],
+    "website": "https://www.sentinal4d.com/",
+    "latest_news": "Sentinal4D moved to Stevenage Bioscience Catalyst campus after transitioning from The Institute of Cancer Research (ICR).",
+    "news_date": "June 2025",
+    "enriched_at": "2026-06-03"
+  },
+  {
+    "id": "ce8fa3f7",
+    "sector": "techbio",
+    "date_added": "2026-06-03",
+    "source_file": "EZYNOS_PitchDeck.pdf",
+    "name": "EZYNOS",
+    "description": "EZYNOS is building an infrastructure layer for the €50B pet hardgoods industry by designing proprietary PFAS-free, bio-sourced polymer formulations and licensing the material standard plus production playbook to brands. They operate a fabless model with qualified Tier-1 automotive/aerospace subcontractors, targeting 80% CO2 and waste reduction versus conventional disposable pet products.",
+    "team": "Co-founded by Laura Serre (B2C/community background, built Just For Pets to €541K revenue with zero paid acquisition) and David Gonzalez (15 years elastomer science at Michelin, 20+ WO patents filed, designed the material and deployment stack).",
+    "stage": "Seed",
+    "tags": [
+      "sustainable materials",
+      "pet products",
+      "licensing platform"
+    ],
+    "website": null,
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-06-03"
+  },
+  {
+    "id": "ff50e2aa",
+    "sector": "synbio",
+    "date_added": "2026-06-03",
+    "source_file": "Zenco Group Pitch Deck 7mb.pdf",
+    "name": "Zenco",
+    "description": "Zenco produces biofertilizers and renewable natural gas from seaweed-based feedstock, targeting the fertilizer, renewable energy, and biofuels markets. The company cultivates seaweed that is pelletized and processed via anaerobic digestion to create biomethane and organic fertilizers, with plans to expand into synthetic fuels.",
+    "team": null,
+    "stage": "Pre-seed",
+    "tags": [
+      "biofuels",
+      "biofertilizer",
+      "renewable energy"
+    ],
+    "website": null,
+    "latest_news": null,
+    "news_date": null,
+    "enriched_at": "2026-06-03"
   }
 ]

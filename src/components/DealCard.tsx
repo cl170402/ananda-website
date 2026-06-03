@@ -20,14 +20,20 @@ const STATUS_STYLE: Record<string, string> = {
 const SECTOR_STYLES: Record<string, string> = {
   health:  "bg-emerald-500/10 text-emerald-400 border border-emerald-500/25",
   techbio: "bg-violet-500/10 text-violet-400 border border-violet-500/25",
+  synbio:  "bg-cyan-500/10 text-cyan-400 border border-cyan-500/25",
+  ag:      "bg-lime-500/10 text-lime-400 border border-lime-500/25",
 };
 const SECTOR_DOT: Record<string, string> = {
   health:  "bg-emerald-400",
   techbio: "bg-violet-400",
+  synbio:  "bg-cyan-400",
+  ag:      "bg-lime-400",
 };
 const SECTOR_LABEL: Record<string, string> = {
   health:  "Health",
   techbio: "TechBio",
+  synbio:  "SynBio",
+  ag:      "Ag",
 };
 
 /* ── Component ───────────────────────────────────────────────────── */

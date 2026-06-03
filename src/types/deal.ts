@@ -1,7 +1,7 @@
 export interface Deal {
   id: string;
   name: string;
-  sector: "health" | "techbio";
+  sector: "health" | "techbio" | "synbio" | "ag";
   description: string;
   team: string;
   stage: string | null;

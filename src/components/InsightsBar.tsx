@@ -7,10 +7,14 @@ interface Props {
 }
 
 export default function InsightsBar({ deals }: Props) {
-  const health = deals.filter((d) => d.sector === "health").length;
+  const health  = deals.filter((d) => d.sector === "health").length;
   const techbio = deals.filter((d) => d.sector === "techbio").length;
+  const synbio  = deals.filter((d) => d.sector === "synbio").length;
+  const ag      = deals.filter((d) => d.sector === "ag").length;
   const total = deals.length;
-  const healthPct = total ? Math.round((health / total) * 100) : 50;
+  const healthPct  = total ? Math.round((health  / total) * 100) : 25;
+  const tecPct     = total ? Math.round((techbio / total) * 100) : 25;
+  const synPct     = total ? Math.round((synbio  / total) * 100) : 25;
 
   const stageCount = deals.reduce((acc, d) => {
     if (d.stage) acc[d.stage] = (acc[d.stage] ?? 0) + 1;
@@ -35,18 +39,24 @@ export default function InsightsBar({ deals }: Props) {
       {/* Sector bar */}
       <div className="h-1 flex">
         <div className="bg-emerald-500/60" style={{ width: `${healthPct}%` }} />
-        <div className="bg-violet-500/60 flex-1" />
+        <div className="bg-violet-500/60" style={{ width: `${tecPct}%` }} />
+        <div className="bg-cyan-500/60"   style={{ width: `${synPct}%` }} />
+        <div className="bg-lime-500/60 flex-1" />
       </div>
 
       <div className="p-4 grid grid-cols-2 lg:grid-cols-4 gap-5">
         {/* Sector split */}
         <div>
           <p className="text-[9px] text-zinc-600 uppercase tracking-[0.18em] mb-2">Sectors</p>
-          <div className="flex gap-3 items-baseline">
+          <div className="flex flex-wrap gap-x-3 gap-y-1 items-baseline">
             <span className="text-sm font-semibold text-emerald-400">{health}</span>
             <span className="text-xs text-zinc-600">Health</span>
             <span className="text-sm font-semibold text-violet-400">{techbio}</span>
             <span className="text-xs text-zinc-600">TechBio</span>
+            <span className="text-sm font-semibold text-cyan-400">{synbio}</span>
+            <span className="text-xs text-zinc-600">SynBio</span>
+            <span className="text-sm font-semibold text-lime-400">{ag}</span>
+            <span className="text-xs text-zinc-600">Ag</span>
           </div>
         </div>
 
