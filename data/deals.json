@@ -111,7 +111,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-06-03"
+    "enriched_at": "2026-06-15"
   },
   {
     "id": "418dc3ad",
@@ -147,7 +147,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-06-03"
+    "enriched_at": "2026-06-15"
   },
   {
     "id": "70b37204",
@@ -185,7 +185,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-06-03"
+    "enriched_at": "2026-06-15"
   },
   {
     "id": "cbbacded",
@@ -356,7 +356,7 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-06-03"
+    "enriched_at": "2026-06-15"
   },
   {
     "id": "ff50e2aa",
@@ -375,6 +375,63 @@
     "website": null,
     "latest_news": null,
     "news_date": null,
-    "enriched_at": "2026-06-03"
+    "enriched_at": "2026-06-15"
+  },
+  {
+    "id": "944b00f6",
+    "sector": "health",
+    "date_added": "2026-06-15",
+    "source_file": "Kairo Bio - 2026.pdf",
+    "name": "Kairo Bio",
+    "description": "Kairo Bio is building a precision immunology AI platform that combines functional immune assays with human reference data to predict immune responses and improve clinical trial success rates. The company targets biotech and pharma companies developing immune therapies, addressing the $412B annual cost of clinical trial failures in immunology.",
+    "team": "Co-founded by Antonio Bordería Giner, PhD (CEO) with 15+ years in biology and AI, and Darragh Duffy, PhD (CSO) with 20+ years in immunology research and 200+ papers, who served as scientific coordinator of the Milieu Intérieur project.",
+    "stage": "Pre-seed",
+    "tags": [
+      "immunology",
+      "AI platform",
+      "clinical trials"
+    ],
+    "website": "https://trykairo.com/",
+    "latest_news": "Kairo Health raised a $500K seed round from Y Combinator as part of the Summer 2024 batch, building AI agents to automate healthcare workforce tasks.",
+    "news_date": "2024",
+    "enriched_at": "2026-06-15"
+  },
+  {
+    "id": "bcf58ba1",
+    "sector": "health",
+    "date_added": "2026-06-15",
+    "source_file": "Pitch Deck Rapidemic 2026_Short.pdf",
+    "name": "Rapidemic",
+    "description": "Rapidemic develops rapid, instrument-free molecular diagnostic tests for infectious diseases, starting with sexually transmitted infections like chlamydia and gonorrhea. Their platform delivers lab-grade accuracy in 15 minutes without complex equipment, targeting a $3.2B market opportunity in decentralized point-of-care and at-home testing.",
+    "team": "International team of 15 expert scientists, engineers, QA/RA and commercial specialists with over 75 years combined experience in molecular diagnostics. Founded in 2021 after winning the grand prize at MIT's iGEM synthetic biology competition, led by CEO Violette Defourt.",
+    "stage": null,
+    "tags": [
+      "molecular diagnostics",
+      "infectious disease",
+      "point-of-care testing"
+    ],
+    "website": "https://rapidemic.com",
+    "latest_news": "Rapidemic secured a $2.7 million grant from the Bill & Melinda Gates Foundation to develop RapiDetect CT/NG, a power-free molecular diagnostic test for STIs that delivers results in under 15 minutes.",
+    "news_date": "September 2025",
+    "enriched_at": "2026-06-15"
+  },
+  {
+    "id": "00fe37ef",
+    "sector": "health",
+    "date_added": "2026-06-15",
+    "source_file": "Swift Robotics - n.pdf",
+    "name": "Swift Robotics",
+    "description": "Swift Robotics develops companion robots called Nova for elderly care facilities. The robots provide 24/7 fall detection, medication reminders, voice-interactive companionship, and health monitoring through voice biomarkers. They are targeting the UK's £16B+ long-term adult care market amid a growing staffing crisis and aging population.",
+    "team": "Four-person founding team led by CEO Michal Kostyal, COO Baran Sahan, CTO Yegor Gemba, and Business Lead Yogi Kurniawan, with expertise at the intersection of AI, robotics, and healthcare.",
+    "stage": "Seed",
+    "tags": [
+      "eldercare",
+      "robotics",
+      "AI"
+    ],
+    "website": "https://www.swiftrobotics.ai/",
+    "latest_news": "Swift Robotics (founded 2020, London) won a Grantify IUK (Innovate UK) grant and has 16 employees as of April 2026. The company develops autonomous indoor delivery robots for hospitals and AI-powered elderly companion robots but has not raised external funding.",
+    "news_date": "April 2026",
+    "enriched_at": "2026-06-15"
   }
 ]
